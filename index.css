@@ -1,11 +1,46 @@
 body {
-	background-color: #B2E9FD;
+	background-color: lavender
 }
 
 .header h2 {
-	color: #DC4247;
+	color: black;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	
 }
 
 .header p {
-	color: #50524F;
+	color: silver;
+}
+#searchAdd {
+	background-color: silver;
+	color: black;
+	border-color: black;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#results {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+#showBtn {
+	background-color:black;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color:silver;
+	border-color: black;
+}
+
+.buttons {
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+.btn-primary {
+	margin: 5px;
+	
+}
+.movie-image {
+	display: flex;
+	justify-content: center;
 }
