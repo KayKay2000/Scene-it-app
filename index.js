@@ -28,8 +28,8 @@ function renderMovies2(movies) {
         <div class="collapse multi-collapse" id="multiCollapseExample${index}">
         <div class="card card-body">
             <div class="movie-image"><img src= ${currentMovie.Poster} height=400px /></div>
-            <label class="movie-label">${currentMovie.Title}</label>
-            <div class="date">${currentMovie.Year}</div>
+            <label class="movie-label text">${currentMovie.Title}</label>
+            <div class="date text">${currentMovie.Year}</div>
             <button class="addBtn add-button" type="submit" id="searchAdd" data-imdbid="${currentMovie.imdbID}">Add</button>
         </div>
         </div>
