@@ -53,7 +53,7 @@ search.addEventListener("submit", event => {
     event.preventDefault();
     const text = input.value
     let urlEncodedText = encodeURIComponent(text);
-    fetch("http://www.omdbapi.com/?apikey=59354c85&s=" + urlEncodedText)
+    fetch("http://www.omdbapi.com/?apikey=ff4ee3df&s=" + urlEncodedText)
         // same thing as return response.json()
         .then(response => response.json())
         .then(data => {
