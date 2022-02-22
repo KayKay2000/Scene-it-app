@@ -45,7 +45,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// to search
+// to search 
+//other API Key 59354c85
 const search = document.querySelector("#search-form")
 const input = document.querySelector(".search-bar")
 let urlEncodedSearchString = encodeURIComponent(input);
@@ -79,13 +80,13 @@ function saveToWatchlist(movieID, moviesArray) {
     })
     let watchlistJSON = localStorage.getItem('watchlist');
     let watchlist = JSON.parse(watchlistJSON);
-    
+
     if (watchlist == null) {
         watchlist = [];
     }
     watchlist.push(movie);
-    for (let i = 0; i < watchlist.length; i++){
-        if (watchlist[i] == null){
+    for (let i = 0; i < watchlist.length; i++) {
+        if (watchlist[i] == null) {
             watchlist.splice(i, 1)
         }
     }
