@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // to search 
-//other API Key 59354c85
+//other API Key 59354c85 from class
 const search = document.querySelector("#search-form")
 const input = document.querySelector(".search-bar")
 let urlEncodedSearchString = encodeURIComponent(input);
